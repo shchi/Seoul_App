@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .build();
         //Set to chat view
         chatView.send(message);
-        sendRequest(chatView.getInputText() + " " + latitude + " / " + longitude);
+        sendRequest(chatView.getInputText() + " | " + latitude + " / " + longitude);
         //Reset edit text
         chatView.setInputText("");
     }
