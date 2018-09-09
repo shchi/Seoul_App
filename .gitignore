@@ -8,3 +8,7 @@
 /build
 /captures
 .externalNativeBuild
+**/.node_modules/*
+**/.firebaserc
+*/npm-debug.log
+**/package-lock.json
